@@ -21,3 +21,8 @@ export type SongType = {
   trackName: string,
   previewUrl: string,
 };
+
+export type MusicType = SongType & { favorite: boolean };
+
+export type ChangeEventType = React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>;
+export type SubmitEventType = React.FormEvent<HTMLFormElement>;

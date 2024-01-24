@@ -1,0 +1,33 @@
+.album-list-wrapper {
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  width: 80%;
+}
+
+.album-list-wrapper > h3 {
+  color: #003be5;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.album-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.album-list > a {
+  color: #3d495c;
+  height: 250px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.album-list > a > img {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}

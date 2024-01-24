@@ -1,0 +1,31 @@
+.layout {
+  background-color: #eff3f9;
+  display: flex;
+  flex-direction: row;
+}
+
+.layout > header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.layout > header > nav {
+  display: inherit;
+  flex-direction: column;
+  font-size: 16px;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.layout > header > nav span {
+  margin-left: 10px;
+}
+
+.layout > header > img:first-of-type {
+  height: 96px;
+  width: 170px;
+}
